@@ -104,7 +104,6 @@ export default class Preloader extends EventEmitter {
                         opacity: 1,
                         onComplete: resolve,
                     },
-                    "same"
                 );
         });
     }
