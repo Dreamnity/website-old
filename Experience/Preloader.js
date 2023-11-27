@@ -95,6 +95,13 @@ export default class Preloader extends EventEmitter {
                     ".toggle-bar",
                     {
                         opacity: 1,
+                    },
+                    "same"
+                )
+                .to(
+                    ".fabs",
+                    {
+                        opacity: 1,
                         onComplete: resolve,
                     },
                     "same"
