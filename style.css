@@ -474,24 +474,14 @@ svg{
 }
 
 /*floating discord button*/
-.floating-button-div {
+.fabs {
+  --_viewport-margin: 2.5vmin;
+
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
+  z-index: var(--layer-1);
 
-
-.fb {
-  background-color: #4CAF5000;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  padding: 20px;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  width: fit-content;
-  height: fit-content;
+  inset-block: auto var(--_viewport-margin);
+  inset-inline: auto var(--_viewport-margin);
 }
 
 .discord-ico {
